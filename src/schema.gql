@@ -8,4 +8,7 @@ type Query {
 
   """Devuelve un número aleatorio."""
   random: Float!
+
+  """Devuelve un número hasta el rango o por defecto 10."""
+  randomFromZeroTo(to: Int): Int!
 }
